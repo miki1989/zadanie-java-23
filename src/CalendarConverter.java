@@ -10,25 +10,25 @@ public class CalendarConverter {
 
     public static String convertDayToString(int dayNumber){
         switch (dayNumber){
-            case CalendarConverter.MONDAY:
+            case MONDAY:
                 return "Poniedziałek";
                 //break;
-            case CalendarConverter.TUESDAY:
+            case TUESDAY:
                 return "Wtorek";
                 //break;
-            case CalendarConverter.WEDNESDAY:
+            case WEDNESDAY:
                 return "Środa";
                 //break;
-            case CalendarConverter.THURSDAY:
+            case THURSDAY:
                 return "Czwartek";
                 //break;
-            case CalendarConverter.FRIDAY:
+            case FRIDAY:
                 return "Piątek";
                 //break;
-            case CalendarConverter.SATURDAY:
+            case SATURDAY:
                 return "Sobota";
                 //break;
-            case CalendarConverter.SUNDAY:
+            case SUNDAY:
                 return "Niedziela";
                 //break;
             default:
